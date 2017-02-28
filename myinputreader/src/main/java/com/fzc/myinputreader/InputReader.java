@@ -1,4 +1,4 @@
-package com.example;
+package com.fzc.myinputreader;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class InputReader {
-
     private StringTokenizer tokenizer;
     private BufferedReader reader;
 
@@ -30,5 +29,4 @@ public class InputReader {
     public String next() {
         return tokenizer.nextToken();
     }
-
 }

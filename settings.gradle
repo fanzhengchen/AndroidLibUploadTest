@@ -1,1 +1,1 @@
-include ':app', ':fzctestjava'
+include ':app', ':fzctestjava', ':myinputreader'
